@@ -37,6 +37,7 @@ img {
 		font-size: 1rem;
 		font-style: italic;
 		margin-bottom: 4rem;
+		text-align: center;
 	}
 
 	img + h1 {
@@ -66,18 +67,22 @@ li {
 }
 
 .post-footer {
-	.flex-center {
-		// display: flex;
-		// align-items: center;
-		justify-content: center;
-		border: 1px solid red;
+	h6 {
+		margin-bottom: 0.5em;
+	}
+	.center {
+		text-align: center;
 		ul {
 			padding: 0;
+			display: flex;
+			justify-content: center;
+			display: inline;
 		}
 
 		li {
 			display: inline-block;
-			font-size: 0.8rem;
+			text-align: center;
+			font-size: 0.9rem;
 			margin-right: 0.5em;
 
 			a {

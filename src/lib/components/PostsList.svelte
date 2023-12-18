@@ -1,7 +1,6 @@
 <script>
-	export let posts = []
+	export let posts = [];
 </script>
-
 
 <ul class="posts-list">
 	{#each posts as post}
@@ -9,19 +8,19 @@
 			<article>
 				<a href="/blog/{post.slug}">
 					<img
-					src={post.coverImage}
-					alt=""
-					width={post.coverWidth}
-					height={post.coverHeight}
-					style="ratio: {post.coverWidth} / {post.coverHeight}"
+						src={post.coverImage}
+						alt=""
+						width={post.coverWidth}
+						height={post.coverHeight}
+						style="ratio: {post.coverWidth} / {post.coverHeight}"
 					/>
-					<h2>
+					<h3>
 						{post.title}
-					</h2>
+					</h3>
 				</a>
 			</article>
 
-			<p>{post.excerpt}</p>
+			<p>{@html post.excerpt}</p>
 		</li>
 	{/each}
 </ul>

@@ -1,4 +1,7 @@
-# SvelteKit static blog starter
+### Landing page
+
+<!--
+ # SvelteKit static blog starter
 
 This starter contains everything you need to get up and running with [SvelteKit](https://kit.svelte.dev/) as a static site generator for your Markdown (and Svelte)-powered blog. [Check out the demo here](https://sveltekit-static-starter.netlify.app/), or view the [GitHub repo here](https://github.com/josh-collinsworth/sveltekit-blog-starter).
 
@@ -124,4 +127,4 @@ I assume at least a little bit of knowledge of SvelteKit and/or similar static s
 
 ## Contributing
 
-I've tried my best to make sure this starter is up to date with the latest SvelteKit, but I'm sure improvements can be made. Feel free to [visit the repo](https://github.com/josh-collinsworth/sveltekit-blog-starter) and submit a pull request, or [contact me directly](https://joshcollinsworth.com/contact).
+I've tried my best to make sure this starter is up to date with the latest SvelteKit, but I'm sure improvements can be made. Feel free to [visit the repo](https://github.com/josh-collinsworth/sveltekit-blog-starter) and submit a pull request, or [contact me directly](https://joshcollinsworth.com/contact). -->

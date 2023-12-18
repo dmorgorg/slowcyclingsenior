@@ -5,7 +5,7 @@
  * PLEASE BE SURE TO UPDATE THEM ALL! Thank you!
  **/
 
-export const siteTitle = 'Slow Cycling Senior...';
+export const siteTitle = 'slowcyclingsenior.ca';
 export const siteDescription =
 	'the ramblings of an opportunistic photographer, unrepentant geek, inveterate nomad, terminal cynic, opinionated curmudgeon and occasional (but invariably slow) cyclist';
 export const siteURL = 'slowcyclingsenior.ca';

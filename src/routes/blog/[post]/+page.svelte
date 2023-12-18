@@ -33,7 +33,7 @@
 		height={coverHeight}
 	/>
 
-	<h4>{title}</h4>
+	<h2>{title}</h2>
 
 	<div class="meta">
 		<b>Published:</b>
@@ -50,7 +50,7 @@
 	{#if categories}
 		<aside class="post-footer">
 			<h6>Posted in:</h6>
-			<div class="flex-center">
+			<div class="center">
 				<ul>
 					{#each categories as category}
 						<li>
