@@ -4,7 +4,7 @@
 
 <ul class="posts-list">
 	{#each posts as post}
-		<li>
+		<li class="card">
 			<article>
 				<a href="/blog/{post.slug}">
 					<img
@@ -17,6 +17,7 @@
 					<h3>
 						{post.title}
 					</h3>
+					<span class="date">&nbsp; ({post.date})</span>
 				</a>
 			</article>
 
@@ -24,3 +25,27 @@
 		</li>
 	{/each}
 </ul>
+
+<style>
+	h3 {
+		display: inline;
+	}
+	.date {
+		font-size: 0.8em;
+		vertical-align: text-bottom;
+	}
+	p {
+		margin-top: 0.5em;
+		margin-bottom: 0;
+	}
+	li {
+		border: 1px solid #ccc;
+		padding: 1em;
+	}
+	img {
+		margin-top: 0;
+	}
+	.card {
+		background-color: white;
+	}
+</style>
