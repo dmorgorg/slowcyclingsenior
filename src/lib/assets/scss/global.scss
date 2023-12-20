@@ -32,16 +32,23 @@ body {
 	text-align: center;
 }
 
-.width50 {
+.width50,
+.w-50 {
 	width: 50%;
 	margin: 0 auto;
 }
-.width60 {
+.width60,
+.w-60 {
 	width: 60%;
 	margin: 0 auto;
 }
-.width70 {
+.width70,
+.w-70 {
 	width: 70%;
+	margin: 0 auto;
+}
+.w-80 {
+	width: 80%;
 	margin: 0 auto;
 }
 
