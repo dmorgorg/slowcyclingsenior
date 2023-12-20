@@ -14,7 +14,7 @@
 						height={post.coverHeight}
 						style="ratio: {post.coverWidth} / {post.coverHeight}"
 					/>
-					<h3>
+					<h3 class="title">
 						{post.title}
 					</h3>
 					<span class="date">&nbsp; ({post.date})</span>
@@ -27,15 +27,16 @@
 </ul>
 
 <style>
-	h3 {
+	h3.title {
 		display: inline;
+		padding-top: 2em;
 	}
 	.date {
 		font-size: 0.8em;
 		vertical-align: text-bottom;
 	}
 	p {
-		margin-top: 0.5em;
+		margin-top: 1em;
 		margin-bottom: 0;
 	}
 	li {
@@ -43,6 +44,7 @@
 	}
 	img {
 		margin-top: 0;
+		margin-bottom: 1em;
 	}
 	/* .card {
 		background-color: white;
