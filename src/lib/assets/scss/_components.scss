@@ -5,14 +5,14 @@
 	padding: 2rem 1rem;
 	width: calc(100% + 2rem);
 	max-width: unset;
-	margin: 2rem 0 2rem -1rem;
+	margin: 1rem 0 1rem -1rem;
 	font-style: italic;
 	border-radius: 0.125rem;
 
 	@media (min-width: vars.$smMin) {
 		width: calc(100%);
-		margin: 2rem auto;
-		padding: 2rem;
+		margin: 1rem auto;
+		padding: 1.5rem;
 	}
 }
 

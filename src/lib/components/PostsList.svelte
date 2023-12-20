@@ -39,13 +39,12 @@
 		margin-bottom: 0;
 	}
 	li {
-		border: 1px solid #ccc;
-		padding: 1em;
+		margin-bottom: 2em;
 	}
 	img {
 		margin-top: 0;
 	}
-	.card {
+	/* .card {
 		background-color: white;
-	}
+	} */
 </style>

@@ -33,16 +33,18 @@
 		height={coverHeight}
 	/>
 
-	<h2>{title}</h2>
+	<div class="card">
+		<h2>{title}</h2>
 
-	<div class="meta">
-		<b>Published:</b>
-		{date}
-		&nbsp; &nbsp; &nbsp; &nbsp;
-		{#if updated}
-			<b>Updated:</b>
-			{updated}
-		{/if}
+		<div class="meta">
+			<b>Published:</b>
+			{date}
+			&nbsp; &nbsp; &nbsp; &nbsp;
+			{#if updated}
+				<b>Updated:</b>
+				{updated}
+			{/if}
+		</div>
 	</div>
 
 	<svelte:component this={PostContent} />
