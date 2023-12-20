@@ -84,10 +84,10 @@ article.post {
 	img {
 		padding: 0;
 
-		& + img {
-			margin-top: 1em;
-			margin-bottom: 1em;
-		}
+		// & + img {
+		// 	margin-top: 1em;
+		// 	margin-bottom: 1em;
+		// }
 	}
 	h2 {
 		text-align: center;
