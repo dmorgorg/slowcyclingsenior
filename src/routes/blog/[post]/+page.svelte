@@ -57,7 +57,7 @@
 					{#each categories as category}
 						<li>
 							<a href="/blog/category/{category}/">
-								{category}
+								{@html category}
 							</a>
 						</li>
 					{/each}
