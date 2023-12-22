@@ -3,7 +3,7 @@
 header,
 footer {
 	font-family: var(--primaryFont);
-	padding: 2.5rem 2rem;
+	// padding: 2.5rem 2rem;
 
 	a {
 		text-decoration: none;
@@ -17,10 +17,12 @@ footer {
 		list-style-type: none;
 		display: flex;
 		flex-wrap: wrap;
+		font-size: 1.15rem;
 		justify-content: center;
-		gap: 0rem 1.5rem;
+		// gap: 0rem 1.5rem;
 		padding: 0;
 		margin: 0;
+		// background: yellow;
 
 		a:hover {
 			text-decoration: underline;
@@ -34,12 +36,11 @@ footer {
 
 header {
 	// background: var(--lightAccent);
-	// color: var(--darker);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	margin-bottom: -2em;
-	padding: 0.5em 1em;
+	// padding: 0.25em 1em;
 
 	@media (min-width: vars.$smMin) {
 		justify-content: center;
@@ -62,7 +63,7 @@ header {
 		@media (min-width: vars.$smMin) {
 			width: 100%;
 			// font-size: 1.6rem;
-			font-size: 0.9rem;
+			font-size: 1.2rem;
 		}
 	}
 
@@ -93,9 +94,10 @@ header {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-		background: var(--darker);
-		color: var(--paper);
+		background-color: var(--lightAccent);
+		color: var(--ink);
 		transition: all 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+		font-size: 1rem;
 
 		&.open {
 			transform: translateX(0);
@@ -164,7 +166,7 @@ header {
 }
 
 footer {
-	background: #363;
+	background: #aca;
 	// background: var(--darker);
 	color: var(--paper);
 	display: grid;
@@ -193,7 +195,7 @@ footer {
 		display: initial;
 
 		@media (min-width: vars.$smMin) {
-			border-right: 1px solid var(--dark);
+			// border-right: 1px solid var(--dark);
 		}
 
 		ul {
