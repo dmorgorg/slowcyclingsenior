@@ -68,8 +68,15 @@ img {
 		margin-top: -0.5em;
 	}
 }
-.hsep {
-	height: 3em;
+
+div.caption {
+	margin-top: -1.5em;
+	& + img {
+		margin-top: 1em;
+	}
+	.hsep {
+		height: 3em;
+	}
 }
 h5 {
 	line-height: 1.25;
