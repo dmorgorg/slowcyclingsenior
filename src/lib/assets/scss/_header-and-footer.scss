@@ -3,16 +3,19 @@
 header,
 footer {
 	font-family: var(--primaryFont);
-	// padding: 2.5rem 2rem;
 
 	a {
 		text-decoration: none;
 
 		&.active {
 			font-weight: bold;
+			cursor: default;
 		}
-		&:hover {
-			text-decoration: underline;
+		&:not(.active) {
+			&:hover {
+				text-decoration: underline;
+				cursor: pointer;
+			}
 		}
 	}
 
@@ -27,11 +30,11 @@ footer {
 		margin: 0;
 		// background: yellow;
 
-		a:hover {
-			text-decoration: underline;
-			// font-style: italic;
-			// background-color: pink;
-		}
+		// a:hover {
+		// 	text-decoration: underline;
+		// 	// font-style: italic;
+		// 	// background-color: pink;
+		// }
 	}
 
 	svg {

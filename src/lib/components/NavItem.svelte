@@ -13,8 +13,6 @@
 	};
 </script>
 
-<!-- {href}, {currentPage} -->
-<!-- {href}, {$currentPage} -->
 <li>
 	<a
 		{href}
