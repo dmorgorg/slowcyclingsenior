@@ -11,7 +11,7 @@
 	<meta data-key="description" name="description" content={siteDescription} />
 </svelte:head>
 
-<h2>Blog Posts</h2>
+<h2>Blog Posts:</h2>
 
 <PostsList posts={data.posts} />
 

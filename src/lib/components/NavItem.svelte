@@ -3,7 +3,8 @@
 
 	export let href;
 
-	$: isCurrentPage = $currentPage.startsWith(href);
+	// $: isCurrentPage = $currentPage.startsWith(href);
+	$: isCurrentPage = $currentPage === href;
 
 	const maybeCloseMenu = () => {
 		if (href != $currentPage) {
@@ -13,6 +14,7 @@
 </script>
 
 <!-- {href}, {currentPage} -->
+<!-- {href}, {$currentPage} -->
 <li>
 	<a
 		{href}
