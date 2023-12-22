@@ -11,6 +11,9 @@ footer {
 		&.active {
 			font-weight: bold;
 		}
+		&:hover {
+			text-decoration: underline;
+		}
 	}
 
 	nav ul {
@@ -26,6 +29,8 @@ footer {
 
 		a:hover {
 			text-decoration: underline;
+			// font-style: italic;
+			// background-color: pink;
 		}
 	}
 
