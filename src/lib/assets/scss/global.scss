@@ -195,6 +195,16 @@ h2 {
 	h5 {
 		margin: 0;
 	}
+
+	&.top-matter {
+		margin: 0;
+		padding: 0;
+		// border: 2px solid var(--accent);
+
+		img {
+			margin-top: 0;
+		}
+	}
 }
 section {
 	font-size: 0.85em;

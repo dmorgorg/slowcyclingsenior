@@ -24,16 +24,14 @@
 
 <article class="post">
 	<!-- You might want to add an alt frontmatter attribute. If not, leaving alt blank here works, too. -->
-	<img
-		class="cover-image"
-		src={coverImage}
-		alt=""
-		style="aspect-ratio: {coverWidth} / {coverHeight};"
+	<!-- can't comment attributes in svelte so i'm commenting here, some attributes I removed from the img tag-->
+	<!-- style="aspect-ratio: {coverWidth} / {coverHeight};"
 		width={coverWidth}
-		height={coverHeight}
-	/>
+		height={coverHeight}  -->
+	<!-- <img class="cover-image" src={coverImage} alt="" /> -->
 
-	<div class="card">
+	<div class="card top-matter">
+		<img class="cover-image" src={coverImage} alt="" />
 		<h2>{@html title}</h2>
 
 		<div class="meta">
