@@ -15,7 +15,7 @@
 						style="ratio: {post.coverWidth} / {post.coverHeight}"
 					/>
 					<h3 class="title">
-						{post.title}
+						{@html post.title}
 					</h3>
 					<span class="date">&nbsp; ({post.date})</span>
 				</a>
