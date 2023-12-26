@@ -49,7 +49,7 @@
 
 	{#if categories}
 		<aside class="post-footer">
-			<h6>Posted in:</h6>
+			<h6>Categories:</h6>
 			<div class="center">
 				<ul>
 					{#each categories as category}
