@@ -20,7 +20,7 @@
 		</a>
 	</div>
 
-	<div>
+	<div class="nav">
 		<HamburgerMenuButton />
 		<MainNav />
 	</div>
@@ -28,6 +28,10 @@
 
 <style>
 	.title {
+		font-family: 'Alkes', serif;
 		font-style: italic;
+	}
+	.nav {
+		font-size: 0.9em;
 	}
 </style>
