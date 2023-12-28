@@ -16,3 +16,11 @@
 <PostsList posts={data.posts} />
 
 <Pagination currentPage={1} totalPosts={data.total} />
+
+<style>
+	h2 {
+		margin-top: 1em;
+		font-family: 'Alkes';
+		font-style: italic;
+	}
+</style>

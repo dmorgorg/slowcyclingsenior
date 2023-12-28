@@ -14,7 +14,7 @@
 		Skip to main content
 	</a>
 
-	<div>
+	<div class="title">
 		<a href="/" class="site-title">
 			{siteTitle}
 		</a>
@@ -25,3 +25,9 @@
 		<MainNav />
 	</div>
 </header>
+
+<style>
+	.title {
+		font-style: italic;
+	}
+</style>

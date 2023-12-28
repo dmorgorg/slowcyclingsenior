@@ -28,7 +28,6 @@ footer {
 		// gap: 0rem 1.5rem;
 		padding: 0;
 		margin: 0;
-		// background: yellow;
 
 		// a:hover {
 		// 	text-decoration: underline;
@@ -43,13 +42,12 @@ footer {
 }
 
 header {
-	// background: var(--lightAccent);
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: -2em;
-	margin-top: -0.75em;
-	padding: 0;
+	// margin-bottom: -2em;
+	// margin-top: -0.75em;
+	// padding: 0;
 
 	@media (min-width: vars.$smMin) {
 		justify-content: center;
@@ -142,7 +140,7 @@ header {
 			// display: block;
 			// width: 100%;
 			// text-align: center;
-			margin-bottom: calc(0.2rem + 2vh);
+			// margin-bottom: calc(0.2rem + 2vh);
 		}
 
 		@media (min-width: vars.$smMin) {
@@ -157,7 +155,7 @@ header {
 			color: inherit;
 
 			ul {
-				margin: 1rem auto 0;
+				// margin: 1rem auto 0;
 				// padding-top: 0.5rem;
 				// border-top: 1px solid var(--dark);
 				// width: max-content;
@@ -175,7 +173,7 @@ header {
 }
 
 footer {
-	background: #aca;
+	background: var(--lightAccent);
 
 	display: flex;
 	flex-direction: column;
