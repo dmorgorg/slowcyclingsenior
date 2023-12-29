@@ -86,13 +86,14 @@ li {
 			margin-right: 0.5em;
 
 			a {
-				background-color: var(--lightAccent);
+				background-color: var(--lightishAccent);
+				border: 1px solid var(--dark);
 				line-height: 2.75;
 				padding: 0.5rem 0.75rem;
 				text-transform: capitalize;
 				text-decoration: none;
 				font-family: var(--primaryFont);
-				font-weight: bold;
+				// font-weight: bold;
 			}
 		}
 	}
