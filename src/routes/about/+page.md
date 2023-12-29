@@ -8,25 +8,26 @@
 		margin-top: 0;
 	}
 	p+h2 {
-		margin-top: 2em;
+		margin-top: 1.5em;
+		margin-bottom: 0;
 	}
 </style>
 
 ## About me:
 
-For the TL;DR, just read the above. Otherwise...
+TL;DR? Just read the above. Otherwise...
 
 Born and schooled in the UK. Notable for the amount of time spent at the University of Sheffield, in the '70s, and still leaving without a degree. During one of my 'study breaks,' I hitch-hiked to Greece, then took buses and trains overland to India and Nepal. So started a long-lived fascination with India (now somewhat reduced &ndash; very hot, very polluted and I find the way the noisy nouveau middle-class, and their obnoxious overfed spoiled offspring, treat those less fortunate than themselves quite disappointing). Not to say that I shan't return: rural India still appeals.
 
-Since my mid-teens, my life had been defined pretty much by rock-climbing. I had never been successful at sports but showed aptitude for climbing - and found it thrilling. My choice of Sheffield for university was strongly influenced by ready access to the Peak District National Park and it's wonderful gritstone and limestone crags. I never let lecture attendance get in the way of my climbing - much to the concern of my parents.
+Since my mid-teens, my life had been defined pretty much by rock-climbing. I had never been successful at sports but showed aptitude for climbing - and found it thrilling. My choice of Sheffield for university was mainly influenced by ready access to the Peak District National Park and it's wonderful gritstone and limestone crags. I never let lecture attendance get in the way of my climbing - much to the concern of my parents.
 
-With my university career behind me, I headed over to the US (1978) with a couple of climbing friends. We bought a car in New York, climbed a bit, drove to Colorado and climbed around Boulder, then climbed in Utah and California. At the end of our trip, we went our separate ways; I headed north to Calgary in Canada, feeling little pull back to the UK. And I've been based in Canada ever since.
+With my university career well and truly behind me, I headed over to the US (1978) with a couple of climbing friends. We bought a car in New York, climbed a bit, drove to Colorado and climbed around Boulder, then climbed in Utah and California. At the end of our trip, we went our separate ways; I headed north to Calgary in Canada, feeling little pull back to the UK. And I've been based in Canada ever since.
 
-I met a lovely woman with a love for travel, and continued to travel. We married and had a family (one daughter, one son). I had been working in construction, as a carpenter, but as the children started school and we could no longer disappear for the winters, I decided it was time for a change and returned to university, this time in Calgary. I graduated and taught at a polytechnic for fifteen years before retiring.
+I met a lovely woman who had a love for travel, and continued to travel. We married and had a family (one daughter, one son). I had been working in construction, as a carpenter, but as the children started school and when we could no longer disappear somewhere warm and interesting for the winters, I decided it was time for a change from outdoor physical work and returned to university, in Calgary. I graduated at 51, then taught at a polytechnic for fifteen years before retiring.
 
-Swapping from life as a carpenter to being a student was good for my back. Not so much for my front. I continued to eat like a construction worker and grew too heavy to climb. Biking, specifically touring, seemed a good new direction. I had done one extended cycle tour back in the early 90s, before our children were born, in southern India. At 60, it was time to see whether cycle touring still worked for me. In the fall of 2012, I cycled from Darjeeling, in the north-east of India, to Kanniya Kumari at the southern tip of the sub-continent. Yes, it was still fun (much of the time) and a great way to travel. And a bit of exercise didn't hurt, either. (Well, sometimes it did &ndash; literally &ndash; hurt. But the exercise was good for me!)
+Swapping from life as a carpenter to being a student was good for my back. Not so much for my front. I continued to eat like a construction worker and grew too heavy to climb. Biking, specifically touring, seemed a good new direction. I had done one extended cycle tour back in the early 90s, before our children were born, in southern India. At 60, it was time to see whether cycle touring still worked for me. In the fall of 2012, I cycled from Darjeeling, in the north-east of India, to Kanniya Kumari at the southern tip of the sub-continent. Yes, it was still fun (much of the time). Still a great way to travel. And a bit of exercise didn't hurt, either. (Well, sometimes it did. Literally. But the exercise always felt good for me! If not necessarily good to me.)
 
-The focus of this site is my travels since arriving in Darjeeling a month or two into my sixties. But it will be a long time before it is up to date. But I'll try to keep the new stuff coming, and add to the old stuff when time allows.
+My life can be roughly divided into three parts. First: a passionate and all-consumed climber. Then: more of a student, teacher, husband and father. Now: still a devoted husband but also a retiree, trying to ride my bike in as many interesting places as possible whilst still able, and playing with code when home from my adventures. I enjoy travelling alone but, when Bev joins me, it is even better.
 
 ## About this site:
 
