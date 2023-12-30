@@ -38,5 +38,11 @@
 			font-style: italic;
 			font-weight: normal;
 		}
+
+		@media (max-width: 768px) {
+			h5 {
+				width: 90%;
+			}
+		}
 	}
 </style>
