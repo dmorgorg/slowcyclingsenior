@@ -2,7 +2,7 @@
 	<h3>slowcyclingsenior.ca</h3>
 	<h5>
 		the ramblings of an opportunistic photographer, unrepentant geek, inveterate nomad, terminal
-		cynic, opinionated curmudgeon and occasional <br />(but invariably slow) cyclist
+		cynic, opinionated curmudgeon and occasional (but&nbsp;invariably&nbsp;slow) cyclist
 	</h5>
 </div>
 
@@ -31,7 +31,7 @@
 
 		h5 {
 			color: var(--text);
-			width: 70%;
+			width: 80%;
 			text-align: center;
 			font-family: 'Alkes', serif;
 			font-size: 1.05em;
