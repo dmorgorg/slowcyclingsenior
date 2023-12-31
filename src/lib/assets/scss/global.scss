@@ -52,14 +52,23 @@ body {
 .w-70 {
 	width: 70%;
 	margin: 0 auto;
+	padding: 0;
 }
 .w-80 {
 	width: 80%;
 	margin: 0 auto;
+	padding: 0;
 }
 .w-90 {
 	width: 90%;
 	margin: 0 auto;
+	padding: 0;
+}
+
+// suppress extra spacing for image inside a div, used to set width
+div > img {
+	margin: 0 auto;
+	display: block;
 }
 
 img {
