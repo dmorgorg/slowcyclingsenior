@@ -16,7 +16,7 @@
 	<title>Posts: {category}</title>
 </svelte:head>
 
-<h2>Posts: {category}</h2>
+<h2>Posts: {@html category}</h2>
 
 {#if posts.length}
 	<PostsList {posts} />
