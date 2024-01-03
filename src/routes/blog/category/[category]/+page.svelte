@@ -13,16 +13,16 @@
 </script>
 
 <svelte:head>
-	<title>Category: {category}</title>
+	<title>Posts: {category}</title>
 </svelte:head>
 
-<h2>Blog category: &nbsp; {category}</h2>
+<h2>Posts: {category}</h2>
 
 {#if posts.length}
 	<PostsList {posts} />
 	<Pagination currentPage={page} totalPosts={total} path="/blog/category/{category}/page" />
 {:else}
-	<p><strong>Ope!</strong> Sorry, couldn't find any posts in the category "{category}".</p>
+	<p><strong>Oops!</strong> Sorry, couldn't find any posts in the category "{category}".</p>
 
 	<p><a href="/blog">Back to blog</a></p>
 {/if}

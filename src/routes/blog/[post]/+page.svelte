@@ -39,8 +39,7 @@
 			{date}
 			&nbsp; &nbsp; &nbsp; &nbsp;
 			{#if updated}
-				<b>Updated:</b>
-				{updated}
+				<b>Updated:</b>&nbsp;{updated}
 			{/if}
 		</div>
 	</div>
