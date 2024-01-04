@@ -4,7 +4,7 @@
 	let sortedUniqueCategories = Object.values(uniqueCategories);
 	console.log(sortedUniqueCategories.constructor === Array);
 	sortedUniqueCategories = sortedUniqueCategories.sort((a, b) => {
-		return b.count - a.count;
+		return a.title.localeCompare(b.title);
 	});
 	console.log(sortedUniqueCategories);
 </script>
