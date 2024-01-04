@@ -12,9 +12,7 @@
 		background-color: var(--lightishAccent);
 		display: flex;
 		flex-direction: column;
-
 		justify-content: space-between;
-
 		margin: 2em 0;
 		padding: 1em 0;
 		width: 100%;

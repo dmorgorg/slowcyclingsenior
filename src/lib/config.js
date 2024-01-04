@@ -31,7 +31,7 @@ export const navItems = [
 	},
 	{
 		title: 'Categories',
-		route: '/blog/category'
+		route: '/'
 	},
 	// {
 	// 	title: 'Blog',

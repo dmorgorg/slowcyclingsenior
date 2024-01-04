@@ -2,11 +2,11 @@
 	export let data;
 	const { uniqueCategories } = data;
 	let sortedUniqueCategories = Object.values(uniqueCategories);
-	console.log(sortedUniqueCategories.constructor === Array);
+	// console.log(sortedUniqueCategories.constructor === Array);
 	sortedUniqueCategories = sortedUniqueCategories.sort((a, b) => {
 		return a.title.localeCompare(b.title);
 	});
-	console.log(sortedUniqueCategories);
+	// console.log(sortedUniqueCategories);
 </script>
 
 <div class="compressed-content">
@@ -33,7 +33,7 @@
 			display: inline;
 			background-color: var(--lightishAccent);
 			color: var(--heading);
-			// border: 1px solid var(--darkishAccent);
+			border: 1px solid var(--border);
 			line-height: 1;
 			padding: 0.35em;
 			margin: 0.35rem;
