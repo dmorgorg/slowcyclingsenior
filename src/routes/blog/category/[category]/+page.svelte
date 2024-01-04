@@ -13,10 +13,10 @@
 </script>
 
 <svelte:head>
-	<title>Posts: {category}</title>
+	<title>Category: {category}</title>
 </svelte:head>
 
-<h2>Posts: {@html category}</h2>
+<h2>Category: {@html category}</h2>
 
 {#if posts.length}
 	<PostsList {posts} />

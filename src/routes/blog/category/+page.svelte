@@ -4,11 +4,11 @@
 </script>
 
 <svelte:head>
-	<title>Blog | Categories</title>
+	<title>Categories</title>
 </svelte:head>
 
 <div class="compressed-content">
-	<h1 class="h2">All blog categories</h1>
+	<h4>Blog categories:</h4>
 
 	<ul>
 		{#each uniqueCategories as category}
@@ -21,3 +21,10 @@
 		{/each}
 	</ul>
 </div>
+
+<style>
+	h4 {
+		padding: 0;
+		margin: 0;
+	}
+</style>
