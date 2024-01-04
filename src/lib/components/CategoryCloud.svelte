@@ -1,10 +1,12 @@
 <script>
 	export let data;
 	const { uniqueCategories } = data;
-	// let sortedUniqueCategories = Object.values(uniqueCategories);
-	// sortedUniqueCategories = sortedUniqueCategories.sort((a, b) => a.title < b.title);
-	const sortedUniqueCategories = Object.values(uniqueCategories).sort((a, b) => a.title < b.title);
-	// console.log(uniqueCategories.constructor === Array);
+	let sortedUniqueCategories = Object.values(uniqueCategories);
+	console.log(sortedUniqueCategories.constructor === Array);
+	sortedUniqueCategories = sortedUniqueCategories.sort((a, b) => {
+		return b.count - a.count;
+	});
+	console.log(sortedUniqueCategories);
 </script>
 
 <div class="compressed-content">
@@ -29,28 +31,31 @@
 		justify-content: center;
 		li {
 			display: inline;
-			padding: 0 0.5rem;
 			background-color: var(--lightishAccent);
-			border: 1px solid black;
-			line-height: 2;
+			color: var(--heading);
+			// border: 1px solid var(--darkishAccent);
+			line-height: 1;
+			padding: 0.35em;
+			margin: 0.35rem;
 
-			margin: 0.25rem;
+			&:hover {
+				color: white;
+				background-color: var(--heading);
+			}
 		}
 
 		span {
 			white-space: nowrap;
+			padding: 0;
 		}
 
 		a {
-			color: var(--heading);
+			color: inherit;
 			font-size: medium;
 			font-weight: 500;
 			text-decoration: none;
-			padding: 0;
-
-			&:hover {
-				color: var(--accent);
-			}
+			// padding: 0.25em 0.5em;
+			// margin: 0.25em;
 		}
 	}
 </style>
