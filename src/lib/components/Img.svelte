@@ -4,7 +4,8 @@
 	export let caption;
 </script>
 
-<enhanced:img {src} {alt} />
+<img {src} {alt} />
+<!-- <enhanced:img {src} {alt} /> -->
 
 {#if caption}
 	<div class="caption">{caption}</div>
