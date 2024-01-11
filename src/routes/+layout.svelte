@@ -6,7 +6,7 @@
 	import Footer from '$lib/components/Footer.svelte';
 	import { currentPage, isMenuOpen } from '$lib/assets/js/store';
 	import { navItems } from '$lib/config';
-	import { preloadCode } from '$app/navigation';
+	// import { preloadCode } from '$app/navigation';
 	import { onMount } from 'svelte';
 	import { fade } from 'svelte/transition';
 	// import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
@@ -14,8 +14,6 @@
 
 	const transitionIn = { delay: 150, duration: 150 };
 	const transitionOut = { duration: 100 };
-
-	export const prerender = true;
 
 	/**
 	 * Updates the global store with the current path. (Used for highlighting
@@ -33,7 +31,7 @@
 
 	onMount(() => {
 		const navRoutes = navItems.map((item) => item.route);
-		preloadCode(...navRoutes);
+		// preloadCode(...navRoutes);
 	});
 </script>
 
