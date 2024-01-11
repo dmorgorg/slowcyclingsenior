@@ -1,6 +1,11 @@
 <script>
-	export let src;
+	export let url;
 	export let alt = '';
+	export let caption;
 </script>
 
-<enhanced:img {src} {alt} />
+<enhanced:img src={url} {alt} />
+
+{#if caption}
+	<div class="caption">{caption}</div>
+{/if}
