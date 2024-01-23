@@ -22,12 +22,16 @@ export const navItems = [
 	// 	route: '/'
 	// },
 	{
+		title: '2022',
+		route: '/blog/category/2022'
+	},
+	{
 		title: '2023',
 		route: '/blog/category/2023'
 	},
 	{
-		title: '2022',
-		route: '/blog/category/2022'
+		title: '2024',
+		route: '/blog/category/2024'
 	},
 	{
 		title: 'Categories',
