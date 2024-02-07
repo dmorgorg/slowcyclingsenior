@@ -22,7 +22,7 @@
 	</ul>
 </div>
 
-<style lang="scss">
+<!-- <style lang="scss">
 	ul {
 		display: flex;
 		flex-wrap: wrap;
@@ -54,4 +54,4 @@
 			text-decoration: none;
 		}
 	}
-</style>
+</style> -->

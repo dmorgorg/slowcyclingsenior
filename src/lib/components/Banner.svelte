@@ -6,7 +6,7 @@
 	</h5>
 </div>
 
-<style lang="scss">
+<!-- <style lang="scss">
 	.banner {
 		align-items: center;
 		background-color: var(--lightishAccent);
@@ -43,4 +43,4 @@
 			}
 		}
 	}
-</style>
+</style> -->
