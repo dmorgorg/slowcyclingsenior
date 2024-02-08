@@ -7,7 +7,7 @@
 	});
 </script>
 
-<div class="compressed-content">
+<div class="compressed-content cloud">
 	<ul role="navigation">
 		{#each sortedUniqueCategories as category}
 			<li>
