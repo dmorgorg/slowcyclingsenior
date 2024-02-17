@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 	<head>
 		<meta charset="utf-8" />
@@ -6,7 +6,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 
 		%sveltekit.head%
-		<!-- You can replace this block to update the Google fonts used in the project -->
+		<!-- You can add global <meta> tags here, but anything not global or dynamic should be a `<svelte:head>` tag on the proper page(s) instead. -->
 		<link rel="preconnect" href="https://fonts.googleapis.com" />
 		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
 		<link
@@ -14,10 +14,6 @@
 			rel="stylesheet"
 		/>
 		<link href="https://fonts.cdnfonts.com/css/alkes" rel="stylesheet" />
-
-		<!-- End Google Fonts block -->
-
-		<!-- You can add global <meta> tags here, but anything not global or dynamic should be a `<svelte:head>` tag on the proper page(s) instead. -->
 	</head>
 	<body>
 		<div id="svelte">%sveltekit.body%</div>

@@ -1,5 +1,5 @@
 <script>
-	import { isMenuOpen } from '$lib/assets/js/store';
+	import { isMenuOpen } from '../assets/js/store';
 	import HamburgerSVG from './svg/HamburgerSVG.svelte';
 	import XSVG from './svg/XSVG.svelte';
 
@@ -23,9 +23,3 @@
 		<HamburgerSVG />
 	{/if}
 </button>
-
-<style>
-	button {
-		padding-top: 0.25em;
-	}
-</style>

@@ -1,5 +1,5 @@
 <script>
-	import FooterNav from './MainNav.svelte';
+	import FooterNav from './FooterNav.svelte';
 	import { siteAuthor } from '$lib/config';
 </script>
 
