@@ -4,7 +4,7 @@
 
 <ul class="posts-list">
 	{#each posts as post}
-		<li class="card top-matter">
+		<li s>
 			<article>
 				<a href="/blog/{post.slug}">
 					<img
