@@ -12,8 +12,8 @@
 	// import { injectSpeedInsights } from '@vercel/speed-insights/sveltekit';
 	export let data;
 
-	const transitionIn = { delay: 150, duration: 150 };
-	const transitionOut = { duration: 100 };
+	const transitionIn = { delay: 550, duration: 550 };
+	const transitionOut = { duration: 500 };
 
 	/**
 	 * Updates the global store with the current path. (Used for highlighting
@@ -39,14 +39,19 @@
 	The below markup is used on every page in the site. The <slot> is where the page's
 	actual contents will show up.
 -->
-<div class="layout" class:open={$isMenuOpen}>
+<div class="wrapper">
 	<Header />
-	<main><Banner /></main>
-	{#key data.path}
-		<main id="main" tabindex="-1" in:fade={transitionIn} out:fade={transitionOut}>
-			<slot />
+	<div class="layout" class:open={$isMenuOpen}>
+		<main>
+			<Banner />
+			{#key data.path}
+				<main id="main" tabindex="-1" in:fade={transitionIn} out:fade={transitionOut}>
+					<slot />
+				</main>
+			{/key}
 		</main>
-	{/key}
-	<Footer />
-	<!-- <InjectSpeedInsights /> -->
+		<Footer />
+
+		<!-- <InjectSpeedInsights /> -->
+	</div>
 </div>

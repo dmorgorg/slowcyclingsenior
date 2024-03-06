@@ -25,15 +25,8 @@ footer {
 		flex-wrap: wrap;
 		font-size: 1rem;
 		justify-content: center;
-		// gap: 0rem 1.5rem;
 		padding: 0;
 		margin: 0;
-
-		// a:hover {
-		// 	text-decoration: underline;
-		// 	// font-style: italic;
-		// 	// background-color: pink;
-		// }
 	}
 
 	svg {
@@ -45,9 +38,7 @@ header {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	// margin-bottom: -2em;
-	// margin-top: -0.75em;
-	// padding: 0;
+	border-bottom: 0.5em solid var(--lighterAccent);
 
 	@media (min-width: vars.$smMin) {
 		justify-content: center;
@@ -56,21 +47,11 @@ header {
 	}
 
 	.site-title {
-		// font-family: var(--accentFont);
 		font-family: 'Alkes', serif;
-		// font-size: 2.1rem;
 		line-height: 1;
-		// color: inherit;
-		// text-align: center;
-		// margin: 0;
-		// display: block;
-		// font-size: 1.4rem;
-		// font-size: 0.5em;
-		// font-weight: bold;
 
 		@media (min-width: vars.$smMin) {
 			width: 100%;
-			// font-size: 1.6rem;
 			font-size: 1.2rem;
 		}
 	}
@@ -124,7 +105,7 @@ header {
 				// Probably shouldn't have more than 8 main nav menu items, but if you do, you can adjust this
 				@for $i from 1 through 8 {
 					&:nth-of-type(#{$i}) {
-						animation-delay: 0.15s + $i * 0.05s;
+						animation-delay: 0.15s + $i * 0.3s;
 					}
 				}
 			}
@@ -134,14 +115,6 @@ header {
 			position: absolute;
 			top: 2rem;
 			right: 2rem;
-		}
-
-		ul li {
-			// font-size: 1.2rem;
-			// display: block;
-			// width: 100%;
-			// text-align: center;
-			// margin-bottom: calc(0.2rem + 2vh);
 		}
 
 		@media (min-width: vars.$smMin) {
