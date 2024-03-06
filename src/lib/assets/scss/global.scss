@@ -81,9 +81,9 @@ img {
 		margin-top: -0.5em;
 	}
 
-	& + img {
-		margin-top: 0;
-	}
+	// & + img {
+	// 	margin-top: 0;
+	// }
 
 	& + .caption {
 		margin-top: -1.5em;
@@ -116,15 +116,15 @@ h6,
 	font-style: italic;
 }
 
-p + .heading,
-img + .heading,
-.caption + h5.heading {
-	margin-top: 1em;
-	padding-bottom: 0;
-}
-.heading + img {
-	margin-top: 0.5em;
-}
+// p + .heading,
+// img + .heading,
+// .caption + h5.heading {
+// 	margin-top: 1em;
+// 	padding-bottom: 0;
+// }
+// .heading + img {
+// 	margin-top: 0.5em;
+// }
 
 div.date {
 	color: var(--heading);
@@ -140,6 +140,12 @@ div.date {
 }
 img p {
 	border: 2px solid green;
+}
+
+figure {
+	margin: 0.5em;
+	// margin-top: 1em;
+	// margin-bottom: 1em;
 }
 
 span.entity {
