@@ -21,7 +21,7 @@
 				</a>
 			</article>
 
-			<p>{post.excerpt}</p>
+			<p>{@html post.excerpt}</p>
 		</li>
 	{/each}
 </ul>
