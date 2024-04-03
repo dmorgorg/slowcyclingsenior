@@ -1,3 +1,5 @@
+// simpy counts all posts and returns the total number
+
 import { json } from '@sveltejs/kit';
 
 export const prerender = true;

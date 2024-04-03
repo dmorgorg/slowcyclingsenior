@@ -13,7 +13,7 @@ export const siteLink = 'https://github.com/dmorgorg/slowcyclingsenior';
 export const siteAuthor = 'Dave Morgan';
 
 // Controls how many posts are shown per page on the main blog index pages
-export const postsPerPage = 30;
+export const postsPerPage = 40;
 
 // Edit this to alter the main nav menu. (Also used by the footer and mobile nav.)
 export const navItems = [
