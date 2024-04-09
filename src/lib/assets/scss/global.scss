@@ -64,7 +64,12 @@ body {
 	margin: 0 auto;
 	padding: 0;
 }
-
+.r-60 {
+	width: 60%;
+	float: right;
+	margin-right: -1em;
+	padding: 0;
+}
 // suppress extra spacing for image inside a div, used to set width
 div > img {
 	margin: 0 auto;
