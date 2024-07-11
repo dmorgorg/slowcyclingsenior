@@ -4,7 +4,7 @@ date: '2024-06-09'
 # updated: '2023-12-16'
 categories:
   - '2024'
-  - 'Andalucia, Spain'
+  - 'Andalucia, ESP'
   - 'Broken Road'
   - 'Cycle Touring'
   - 'Portugal'

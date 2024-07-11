@@ -5,7 +5,7 @@ import fetchPosts from '$lib/assets/js/fetchPosts';
 export const load = async ({ url, params, fetch }) => {
 	const page = parseInt(params.page) || 1;
 	const { category } = params;
-	console.log(params);
+	// console.log(params);
 
 	// Prevents duplication of page 1 as the index page
 	if (page <= 1) {

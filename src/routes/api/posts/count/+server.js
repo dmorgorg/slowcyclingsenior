@@ -1,4 +1,4 @@
-// simpy counts all posts and returns the total number
+// simply counts all posts and returns the total number
 
 import { json } from '@sveltejs/kit';
 
