@@ -37,10 +37,10 @@
 		<div class="meta">
 			<b>Published:</b>
 			{date}
-			&nbsp; &nbsp; &nbsp; &nbsp;
-			{#if updated}
+			<!-- &nbsp; &nbsp; &nbsp; &nbsp; -->
+			<!-- {#if updated}
 				<b>Updated:</b>&nbsp;{updated}
-			{/if}
+			{/if} -->
 		</div>
 	</div>
 
