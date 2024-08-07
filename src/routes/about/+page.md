@@ -17,7 +17,7 @@
 
 TL;DR? Just read the above. Otherwise...
 
-Born and schooled in the UK. Notable for the amount of time spent at the University of Sheffield, in the '70s, and still leaving without a degree. During one of my 'study breaks,' I hitch-hiked to Greece, then took buses and trains overland to India and Nepal. So started a long-lived fascination with India (now somewhat reduced &ndash; overly polluted and I find the way the noisy nouveau middle-class, with their spoiled offspring, treat those less fortunate than themselves quite disappointing). Not to say that I shan't return: rural India still appeals.
+Born and schooled in the UK. Notable for the amount of time spent at the University of Sheffield, in the '70s, and still leaving without a degree. During one of my 'study breaks,' I hitch-hiked to Greece, then took buses and trains overland to India and Nepal. So started a long-lived though now somewhat reduced fascination with India (now somewhat reduced &ndash; overly polluted and I find the way the noisy nouveau middle-class, with their spoiled offspring, treat those less fortunate than themselves quite disappointing). Not to say that I shan't return: rural India still appeals.
 
 Since my mid-teens, my life had been defined pretty much by rock-climbing. I had never been successful at sports but showed aptitude for climbing - and found it thrilling. My choice of Sheffield for university was more influenced by ready access to the Peak District National Park and its wonderful gritstone and limestone crags than any academic considerations. I never allowed lecture attendance to get in the way of a good-wather day out on the crags.
 

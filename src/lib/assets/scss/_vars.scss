@@ -1,17 +1,17 @@
 // Breakpoints
 $xsMin: 37.5rem;
 $xsMax: 47.9375rem;
-$smMin: 48rem;
+$smMin: 48rem; // 768px by default with 16px base font size
 $smMax: 63.9375rem;
-$mdMin: 64rem;
+$mdMin: 64rem; // 1024 px by default with 16px base font size
 $mdMax: 79.9375rem;
-$lgMin: 80rem;
+$lgMin: 80rem; // 1280px by default with 16px base font size
 $lgMax: 89.9375rem;
-$xlMin: 90rem;
+$xlMin: 90rem; // 1440px by default with 16px base font size
 $xlMax: 104.9375rem;
-$xxlMin: 105rem;
+$xxlMin: 105rem; // 1680px by default with 16px base font size
 $xxlMax: 122.4375rem;
-$xxxlMin: 122.5rem;
+$xxxlMin: 122.5rem; // 1960px by default with 16px base font size
 
 :root {
 	// Colors
