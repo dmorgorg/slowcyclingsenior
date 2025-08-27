@@ -11,7 +11,7 @@
 
 <header>
 	<a on:click|preventDefault={focusMain} class="skip-to-content-link" href="#main">
-		Skip to main content
+		Skip 2 main content
 	</a>
 
 	<div class="title">
